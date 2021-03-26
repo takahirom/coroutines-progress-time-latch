@@ -9,7 +9,7 @@
       binding.progress.isVisible = isVisible
     }
     viewModel.isProgress.observe(viewLifecycleOwner) { isProgress ->
-      progressTimeLatch.refresh(value == isProgress)
+      progressTimeLatch.refresh(value = isProgress)
     }
 ```
 
